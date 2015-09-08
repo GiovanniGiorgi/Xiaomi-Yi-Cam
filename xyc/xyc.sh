@@ -26,7 +26,7 @@ unset EXITACTION
 
 inizializzeValues ()
 {
-  #Set reasonable defaults for any missing values
+  #Set defaults values
   ISO=0
   EXP=0
   AWB=y
@@ -77,7 +77,6 @@ createAutoexec ()
 
 removeAutoexec ()
 {
-  #Note: This works in "t": rm 'd:\autoexec.ash'
   rm -f ${FUSED}/autoexec.ash
 }
 
