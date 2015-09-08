@@ -35,7 +35,7 @@ inizializzeValues ()
   SCENE=-1
 }
 
-createAutoexc ()
+createAutoexec ()
 {
   AASH=${FUSED}/autoexec.ash
   OUTFILE=${1:-$AASH}
@@ -84,7 +84,7 @@ removeAutoexec ()
 saveSettings ()
 {
   removeAutoexec
-  createAutoexc
+  createAutoexec
 }
 
 showMainMenu ()
