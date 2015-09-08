@@ -169,7 +169,7 @@ showSpaceUsage ()
 
 showExposureValues ()
 {
-  printf "${XYC_ENTER_EXPOSURE_PROMPT_2}:\n"
+  printf "Value:\n"
   printf "%s\t%s\t%s\n" "0=auto-exp " "1=8s       " "8=7.7s"
   printf "%s\t%s\t%s\n" "50=6.1s    " "84=5.s     " "100=4.6s"
   printf "%s\t%s\t%s\n" "200=2.7s   " "400=1s     " "500=1s"
